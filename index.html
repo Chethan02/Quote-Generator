@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gradient-background">
+    <div class="github-button">
+        <a href="https://github.com/Chethan02/Quote-Generator.git" target="_blank">
+            <i class="fab fa-github"></i> Click to know the Code
+        </a>
+    </div>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote  -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- button -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fa-brands fa-x-twitter"></i>
+            </button>
+            <button id="new-quote" title="Next Quote">New Quote</button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <svg class="ip" viewBox="0 0 256 128" width="256px" height="128px" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#5ebd3e" />
+                    <stop offset="33%" stop-color="#ffb900" />
+                    <stop offset="67%" stop-color="#f78200" />
+                    <stop offset="100%" stop-color="#e23838" />
+                </linearGradient>
+                <linearGradient id="grad2" x1="1" y1="0" x2="0" y2="0">
+                    <stop offset="0%" stop-color="#e23838" />
+                    <stop offset="33%" stop-color="#973999" />
+                    <stop offset="67%" stop-color="#009cdf" />
+                    <stop offset="100%" stop-color="#5ebd3e" />
+                </linearGradient>
+            </defs>
+            <g fill="none" stroke-linecap="round" stroke-width="16">
+                <g class="ip__track" stroke="#ddd">
+                    <path d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56"/>
+                    <path d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64"/>
+                </g>
+                <g stroke-dasharray="180 656">
+                    <path class="ip__worm1" stroke="url(#grad1)" stroke-dashoffset="0" d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56"/>
+                    <path class="ip__worm2" stroke="url(#grad2)" stroke-dashoffset="358" d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64"/>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
