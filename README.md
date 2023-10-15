@@ -10,7 +10,7 @@ This project is built using HTML, CSS, and JavaScript. It fetches random quotes 
 
 ## Demo
 
-You can see a live demo of the Random Quote Generator [here](https://your-demo-link.com).
+You can see a live demo of the Random Quote Generator [here]([https://your-demo-link.com](https://chethan02.github.io/Quote-Generator/)).
 
 ## Features
 
