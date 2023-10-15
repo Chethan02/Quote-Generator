@@ -10,7 +10,7 @@ This project is built using HTML, CSS, and JavaScript. It fetches random quotes 
 
 ## Demo
 
-You can see a live demo of the Random Quote Generator [here]([https://your-demo-link.com](https://chethan02.github.io/Quote-Generator/)).
+You can see a live demo of the Random Quote Generator [here](https://chethan02.github.io/Quote-Generator/).
 
 ## Features
 
@@ -44,7 +44,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, feel free to contact the project owner: [Your Name](https://github.com/your-github-profile)
+For any questions or feedback, feel free to contact the project owner: [Your Name](https://github.com/Chethan02)
 
 ## Acknowledgments
 
