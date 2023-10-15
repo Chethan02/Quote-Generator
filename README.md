@@ -44,7 +44,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, feel free to contact the project owner: [Your Name](https://github.com/Chethan02)
+For any questions or feedback, feel free to contact the project owner: [Chethan S](https://github.com/Chethan02)
 
 ## Acknowledgments
 
